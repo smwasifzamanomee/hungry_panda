@@ -104,8 +104,8 @@ const SalesTable = () => {
           ))}
         </tbody>
       </table>
-      <h1 className="text-3xl text-center mt-10 font-bold text-green-500">Graph Chart</h1>
-      <canvas id="salesChart" className="mt-6"></canvas>
+      {/* <h1 className="text-3xl text-center mt-10 font-bold text-green-500">Graph Chart</h1>
+      <canvas id="salesChart" className="mt-6"></canvas> */}
     </div>
   );
 };
