@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   autoprefixer: 10.4.14
+  chart.js: ^4.3.0
   next: 13.4.9
   postcss: 8.4.25
   react: 18.2.0
@@ -10,6 +11,7 @@ specifiers:
 
 dependencies:
   autoprefixer: 10.4.14_postcss@8.4.25
+  chart.js: 4.3.0
   next: 13.4.9_biqbaboplfbrettd7655fr4n2y
   postcss: 8.4.25
   react: 18.2.0
@@ -55,6 +57,10 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
+    dev: false
+
+  /@kurkle/color/0.3.2:
+    resolution: {integrity: sha512-fuscdXJ9G1qb7W8VdHi+IwRqij3lBkosAm4ydQtEmbY58OzHXqQhvlxqEkoz0yssNVn38bcpRWgA9PP+OGoisw==}
     dev: false
 
   /@next/env/13.4.9:
@@ -249,6 +255,13 @@ packages:
 
   /caniuse-lite/1.0.30001514:
     resolution: {integrity: sha512-ENcIpYBmwAAOm/V2cXgM7rZUrKKaqisZl4ZAI520FIkqGXUxJjmaIssbRW5HVVR5tyV6ygTLIm15aU8LUmQSaQ==}
+    dev: false
+
+  /chart.js/4.3.0:
+    resolution: {integrity: sha512-ynG0E79xGfMaV2xAHdbhwiPLczxnNNnasrmPEXriXsPJGjmhOBYzFVEsB65w2qMDz+CaBJJuJD0inE/ab/h36g==}
+    engines: {pnpm: '>=7'}
+    dependencies:
+      '@kurkle/color': 0.3.2
     dev: false
 
   /chokidar/3.5.3:
