@@ -58,10 +58,10 @@ const salesdata = [
 ];
 
 const salesGraphData = [
-    { date: '2023-06-26', sales: 7100, store: 'Store 7' },
+    { date: '2023-06-26', sales: 100, store: 'Store 7' },
     { date: '2023-06-27', sales: 550, store: 'Store 7' },
     { date: '2023-06-28', sales: 330, store: 'Store 7' },
-    { date: '2023-06-29', sales: 1300, store: 'Store 7' },
+    { date: '2023-06-29', sales: 300, store: 'Store 7' },
     { date: '2023-06-30', sales: 30, store: 'Store 7' },
     { date: '2023-07-01', sales: 100, store: 'Store 1' },
     { date: '2023-07-02', sales: 200, store: 'Store 1' },
